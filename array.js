@@ -52,3 +52,21 @@ console.log(val);
 // flat
 arr2 = [[10, 3], 23, 4, 5, [45, [22, 6], 7]];
 console.log(arr2.flat(Infinity));
+
+// includes
+console.log(arr.includes(13));
+
+// splice
+arr.splice(2, 1);
+console.log(arr);
+
+// reverse
+arr.reverse();
+console.log(arr);
+
+// concat
+newArr = arr.concat(arr2);
+console.log(newArr);
+
+// join
+console.log(arr.join(", "));
