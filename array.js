@@ -56,6 +56,12 @@ console.log(arr2.flat(Infinity));
 // includes
 console.log(arr.includes(13));
 
+// indexof
+console.log(arr.indexOf(13));
+
+// slice
+console.log(arr.slice(2, 4));
+
 // splice
 arr.splice(2, 1);
 console.log(arr);
