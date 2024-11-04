@@ -23,3 +23,6 @@ console.log(str.endsWith("lam"));
 
 // includes
 console.log(str.includes("laya"));
+
+// trim
+console.log(str.trim());
