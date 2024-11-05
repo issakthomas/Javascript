@@ -9,3 +9,9 @@ const employee = {
     id: 1007, name: "Shayan", role: "developer", location: "kochi", salary: 30000, exp: 3,
     id: 1008, name: "Nihaan", role: "developer", location: "TVM", salary: 25000, exp: 3,
 };
+
+// bracket notation
+console.log(employee["name"]);
+
+// dot notation
+console.log(employee.name);
