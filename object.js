@@ -47,6 +47,15 @@ console.log(Object.values(employee));
 // display object as array
 console.log(Object.entries(employee));
 
+// display object as key-value pairs one by one
+for (let key in employee) {
+    console.log(`${key} : ${employee[key]}`);
+}
+
 // remove
 delete employee.vacc
 console.log(employee);
+
+// destructuring
+const { id, name, role } = employee;
+console.log(id, name, role);
