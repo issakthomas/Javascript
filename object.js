@@ -15,3 +15,9 @@ console.log(employee["name"]);
 
 // dot notation
 console.log(employee.name);
+
+// in operator
+console.log("name" in employee);
+
+// hasOwnProperty()
+console.log(employee.hasOwnProperty("name"));
