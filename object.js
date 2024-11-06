@@ -21,3 +21,9 @@ console.log("name" in employee);
 
 // hasOwnProperty()
 console.log(employee.hasOwnProperty("name"));
+
+// insert
+employee.gender = "male";
+employee["age"] = 25;
+Object.assign(employee, { vacc: true });
+console.log(employee);
